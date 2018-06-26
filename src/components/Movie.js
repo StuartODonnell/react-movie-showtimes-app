@@ -5,7 +5,7 @@ class Movie extends Component{
     return(
       <div className="movie">
         <button>+</button>
-        <h4 className="movie-name">{this.props.movie_name}</h4>
+        <ul className="movie-name">{this.props.movie_name}</ul>
         <a href="http://www.imdb.com">showtimes</a>
 
       </div>
